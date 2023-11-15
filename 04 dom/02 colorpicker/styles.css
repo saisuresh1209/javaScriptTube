@@ -1,0 +1,48 @@
+.hover-styles{
+  background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: red;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.pink{
+    background-color: pink;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.green{
+    background-color: green;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.yellow{
+    background-color: yellow;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.white{
+    background-color: white;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.centre{
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 40rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

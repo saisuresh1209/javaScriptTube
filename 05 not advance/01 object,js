@@ -1,0 +1,11 @@
+var User = function  (firstName,lastName,Gender,location) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.Gender = Gender;
+    this.location = location;
+
+};
+
+var details = new User ("Saisuresh","Chintada","Male","hyderabad");
+
+console.table(details);
