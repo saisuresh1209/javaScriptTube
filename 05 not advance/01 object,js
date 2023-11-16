@@ -6,6 +6,16 @@ var User = function  (firstName,lastName,Gender,location) {
 
 };
 
+User.prototype.getFirstName = function (){
+    console.log(this.firstName);
+}
+
 var details = new User ("Saisuresh","Chintada","Male","hyderabad");
 
+if (details.hasOwnproperty("firstname")) {
+    details.getFirstName();
+}else{
+    console.log("given details were wrong");
+}
 console.table(details);
+details.getFirstName();
