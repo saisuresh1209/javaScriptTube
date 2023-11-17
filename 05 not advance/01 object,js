@@ -12,7 +12,7 @@ User.prototype.getFirstName = function (){
 
 var details = new User ("Saisuresh","Chintada","Male","hyderabad");
 
-if (details.hasOwnproperty("firstname")) {
+if (details.hasOwnProperty("firstname")) {
     details.getFirstName();
 }else{
     console.log("given details were wrong");
